@@ -15,11 +15,16 @@ let basket = [];
 
 function addItem(item) {
     basket.push(item)
-    return basket;
+    return true;
 
 }
 addItem('item');
 
+
+
+function listItems() {
+
+}
 
 
 
